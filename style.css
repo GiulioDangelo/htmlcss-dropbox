@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+font-family: sans-serif;
+}
+
 body{
     margin-top: 5em;
 }
@@ -74,10 +78,14 @@ margin-top: 10px;
 
 h1{
     font-size: 70px;
+    font-weight: 800;
+    padding-top: 80px;
 }
 
 .content-right img{
     height: 500px;
+    position: relative;
+    top: 70px;
 }
 
 .content-left{
@@ -88,11 +96,18 @@ h1{
 
 .content-left p{
     text-align: start;
+    font-size: 18px;
 }
 
 .content-left button{
     background-color: #0061FF;
     color: white;
     padding: 10px;
-    margin:30px 0;
+    margin:40px 0;
+    border: none;
+}
+
+.content-left span{
+    font-size: 60px;
+    margin-top: 130px;
 }
