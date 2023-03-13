@@ -74,6 +74,8 @@ margin-top: 10px;
     max-width: 1200px;
     margin: auto;
     margin-top: 50px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 h1{
@@ -81,6 +83,8 @@ h1{
     font-weight: 800;
     padding-top: 80px;
     /* text-align: start; */
+    max-width: 1200px;
+    margin: auto;
 }
 
 .content-right img{
@@ -108,7 +112,7 @@ h1{
     border: none;
 }
 
-#redirect{
+#arrow{
     font-size: 60px;
     margin-top: 130px;
     color: black;
