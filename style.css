@@ -33,7 +33,7 @@ margin-right: 30px;
 margin-top: 10px;
 }
 
-.list-top{
+.list-nav{
     display: flex;
     list-style-type: none;
     align-items: center;
@@ -82,7 +82,7 @@ h1{
     font-size: 70px;
     font-weight: 800;
     padding-top: 80px;
-    /* text-align: start; */
+    text-align: start;
     max-width: 1200px;
     margin: auto;
 }
@@ -102,6 +102,7 @@ h1{
 .content-left p{
     text-align: start;
     font-size: 18px;
+    padding-top: 30px;
 }
 
 .content-left button{
@@ -116,4 +117,100 @@ h1{
     font-size: 60px;
     margin-top: 130px;
     color: black;
+}
+
+
+/* plan */
+.container-plan{
+    max-width: 1200px;
+    margin: 170px auto;
+ 
+}
+
+.container-plan span{
+    margin-right: 40px;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.plan-top{
+    display: flex;
+    gap: 2em; 
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px; 
+}
+
+.card{
+    border: 2px solid lightgray;
+    flex: 0 0 calc(100% / 3 - 2em );
+}
+
+.card-content{
+    padding: 50px;
+    text-align: start;
+}
+
+.plan-user{
+    display: inline-block;
+    width: 100%;
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 20px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.plan-price{
+    font-weight: 600;
+
+}
+
+.plan-period{
+    color: lightgray;
+    display: flex ;
+    justify-content: flex-start;
+}
+
+.list-card{
+    list-style-type: none;
+}
+
+.card{
+    text-align: center;
+}
+
+.list-card li{
+    padding: 10px;
+    text-align: start;
+}
+
+.list-top{
+    margin-bottom: 20px;
+}
+
+.card-bottom{
+    flex: 1 0 100%;
+}
+
+.button-plan{
+    background-color: #0061FF;
+    margin: 10px;
+    color: white;
+    border: none;
+    padding:10px 45px;
+}
+
+.buy-now{
+    margin: 20px;
+    text-align: start;
+}
+
+.check-blue{
+    color: #0061FF;
 }
