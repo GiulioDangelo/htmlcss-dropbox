@@ -73,9 +73,6 @@ margin-top: 10px;
     display: flex;
     max-width: 1200px;
     margin: auto;
-    margin-top: 50px;
-    max-width: 1200px;
-    margin: auto;
 }
 
 h1{
@@ -90,7 +87,7 @@ h1{
 .content-right img{
     height: 500px;
     position: relative;
-    top: 70px;
+    top: 120px;
 }
 
 .content-left{
@@ -102,7 +99,9 @@ h1{
 .content-left p{
     text-align: start;
     font-size: 18px;
-    padding-top: 30px;
+    margin-top: 75px;
+    /* position: relative;
+    top: 50px; */
 }
 
 .content-left button{
@@ -124,7 +123,7 @@ h1{
 .container-plan{
     max-width: 1200px;
     margin: 170px auto;
- 
+
 }
 
 .container-plan span{
@@ -137,11 +136,11 @@ h2{
 }
 
 .plan-top{
-    gap: 2em; 
+    gap: 2em;
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
 .card{
@@ -257,4 +256,68 @@ margin: 30px 0;
 .button-partner button{
     font-size: 20px;
     padding: 15px;
+}
+
+
+/* business card */
+.container-business{
+    margin:170px auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.business-card{
+    flex: 0 0 calc( 100% / 3 );
+    padding: 25px;
+}
+
+.business-img img{
+    width: 100%;
+}
+
+.business-card p{
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+
+/* dati utilizzatori */
+.dati-utilizzatori{
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* affiliati */
+.container-affiliates{
+    display: flex;
+    background-color: aqua;
+}
+
+/* .affiliates-left{
+display: flex;
+flex-wrap: wrap;
+width: calc(100% / 3);
+}
+
+.affiliate-card{
+    width: calc( 100% / 2 );
+    aspect-ratio: 1/1;
+    background-color: greenyellow;
+    text-align: center;
+}
+
+.affiliate-card img{
+width: 100%;
+height: calc(100%/2);
+aspect-ratio: 1/1;
+} */
+
+.affiliate-center{
+
+}
+
+.affiliates-left{
+   
 }
