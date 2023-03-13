@@ -137,8 +137,8 @@ h2{
 }
 
 .plan-top{
-    display: flex;
     gap: 2em; 
+    justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px; 
@@ -168,7 +168,6 @@ h3{
 
 .plan-price{
     font-weight: 600;
-
 }
 
 .plan-period{
@@ -204,6 +203,12 @@ h3{
     color: white;
     border: none;
     padding:10px 45px;
+}
+
+.bottom-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .buy-now{
