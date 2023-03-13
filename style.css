@@ -166,6 +166,11 @@ h3{
     font-size: 30px;
 }
 
+h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
 .plan-price{
     font-weight: 600;
 }
@@ -211,11 +216,45 @@ h3{
     align-items: flex-start;
 }
 
-.buy-now{
-    margin: 20px;
-    text-align: start;
-}
-
 .check-blue{
     color: #0061FF;
+}
+
+.prezzo{
+    font-weight: 600;
+}
+
+.buy-now{
+text-align: start;
+}
+
+hr{
+    width: 50px;
+    margin:40px 20px
+}
+
+
+/* container foto e testo piccolo */
+.container-partner{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+.img-partner img{
+   width: 700px;
+}
+
+.text-partner p{
+font-size: 25px;
+margin: 30px 0;
+}
+
+.text-partner{
+    padding: 50px;
+}
+
+.button-partner button{
+    font-size: 20px;
+    padding: 15px;
 }
