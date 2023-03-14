@@ -48,6 +48,7 @@ margin-top: 10px;
 .list-left li{
     margin-right: 50px;
     margin-top: 5px;
+    
 }
 
 .list-right li{
@@ -72,7 +73,8 @@ margin-top: 10px;
 .container-jumbo{
     display: flex;
     max-width: 1200px;
-    margin: auto;
+    margin: auto; 
+    margin-bottom: -75px; 
 }
 
 h1{
@@ -87,7 +89,9 @@ h1{
 .content-right img{
     height: 500px;
     position: relative;
-    top: 120px;
+    top: 120px; */
+    /* margin-bottom: -75px; */
+     box-shadow: 0px 0px 0px black;
 }
 
 .content-left{
@@ -130,7 +134,7 @@ h1{
     margin-right: 40px;
 }
 
-h2{
+.container-plan h2, .container-business h2{
     font-size: 40px;
     margin-bottom: 40px;
 }
@@ -289,35 +293,115 @@ margin: 30px 0;
     max-width: 1200px;
 }
 
+.dati-utilizzatori h2{
+font-size: 35px;
+}
+
+.dati-utilizzatori a{
+    display: inline-block;
+    margin-top: 100px;
+}
 /* affiliati */
 .container-affiliates{
     display: flex;
-    background-color: aqua;
+    margin-top: 200px;
 }
 
-/* .affiliates-left{
-display: flex;
-flex-wrap: wrap;
-width: calc(100% / 3);
+.affiliates-left ,.affiliates-right{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc( 100% / 3);
 }
 
 .affiliate-card{
     width: calc( 100% / 2 );
     aspect-ratio: 1/1;
-    background-color: greenyellow;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .affiliate-card img{
-width: 100%;
-height: calc(100%/2);
-aspect-ratio: 1/1;
-} */
-
-.affiliate-center{
-
+width: 40%;
+height: calc( 100% / 2 );
+filter: invert(1);
 }
 
-.affiliates-left{
-   
+.affiliates-center{
+    width: calc( 100% / 3 );
+    height: 100%;
+    padding: 60px;
+}
+
+.affiliates-center hr{
+    width: 150px;
+    position: relative;
+    right: 20px;
+}
+
+.affiliates-center span{
+    display: inline-block;
+    margin-top: 70px;
+}
+
+/* colori e dimensioni card singole */
+.designit{
+    background-color:#A2D39B;
+}
+
+.ari-uni{
+    background-color:#61082B ;
+}
+
+.flori-uni{
+    background-color: #0093CE;
+}
+
+.flori-uni img{
+    height: auto;
+}
+
+.topps{
+    background-color:#FF1C1C ;
+}
+
+.bicycle{
+    background-color:#FC2425 ;
+}
+
+.hearst{
+    background-color: #B4D0E7;
+}
+
+.lonely{
+    background-color:#0D2481 ;
+}
+
+.clear{
+    background-color:#FFD830 ;
+}
+
+/* free trial */
+.container-trial{
+    background-color:  #B4D0E7;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+}
+
+.trial-left{
+    color: #61082B;
+    font-size: 25px;
+    text-align: start;
+    width: 500px;
+}
+
+.trial-right button{
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    color: black;
 }
