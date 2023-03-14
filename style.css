@@ -20,6 +20,7 @@ header{
     right: 0;
     width: 100%;
     background-color: white;
+    z-index: 50;
 }
 
 nav{
@@ -29,8 +30,8 @@ nav{
 }
 
 .logo-top{
-margin-right: 30px;
-margin-top: 10px;
+    margin-right: 30px;
+    margin-top: 10px;
 }
 
 .list-nav{
@@ -42,13 +43,12 @@ margin-top: 10px;
 
 .list-right{
     justify-content: flex-end;
-    flex: 1 0 auto;
+    flex: 1 0 auto; 
 }
 
 .list-left li{
     margin-right: 50px;
     margin-top: 5px;
-
 }
 
 .list-right li{
@@ -80,32 +80,35 @@ margin-top: 10px;
 h1{
     font-size: 70px;
     font-weight: 800;
-    padding-top: 80px;
+    padding-top: 0px;
     text-align: start;
     max-width: 1200px;
     margin: auto;
+    position: relative;
+    top: 50px;
 }
 
 .content-right img{
     height: 500px;
     position: relative;
     top: 120px;
+    z-index: 0;
     /* margin-bottom: -75px; */
-     box-shadow: 0px 0px 0px black;
+    box-shadow: 0px 0px 0px black;
 }
 
 .content-left{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    position: relative;
+    top: 50px;
 }
 
 .content-left p{
     text-align: start;
     font-size: 18px;
     margin-top: 75px;
-    /* position: relative;
-    top: 50px; */
 }
 
 .content-left button{
@@ -118,7 +121,7 @@ h1{
 
 #arrow{
     font-size: 60px;
-    margin-top: 130px;
+    margin-top: 30px;
     color: black;
 }
 
@@ -127,7 +130,6 @@ h1{
 .container-plan{
     max-width: 1200px;
     margin: 170px auto;
-
 }
 
 .container-plan span{
@@ -323,9 +325,9 @@ font-size: 35px;
 }
 
 .affiliate-card img{
-width: 40%;
-height: calc( 100% / 2 );
-filter: invert(1);
+    width: 40%;
+    height: calc( 100% / 2 );
+    filter: invert(1);
 }
 
 .affiliates-center{
@@ -336,8 +338,7 @@ filter: invert(1);
 
 .hr-affiliates{
     width: 150px;
-    position: relative;
-    right: 20px;
+    margin: 30px;
 }
 
 .affiliates-center span{
@@ -424,14 +425,23 @@ filter: invert(1);
 }
 
 .faq-row{
-    display: flex;
-    justify-content: space-between;
     border-top:1px solid lightgray;
     border-bottom:1px solid lightgray;
     padding: 30px;
     font-weight: 600;
 }
 
+.faq-hover{
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-hidden{
+    display: none;
+    padding-top: 30px;
+    font-weight: 500;
+    color: gray;
+}
 /* footer */
 
 footer{
@@ -492,4 +502,22 @@ footer{
 
 .arrow-up{
 vertical-align: sub;
+}
+
+
+/* effetti */
+
+.list-nav li:hover{
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+
+.faq-row:hover .faq-hidden{
+    display: block;
+}
+
+.faq-row:hover .fa-chevron-down{
+    transition: 0.3s;
+    transform: rotate(180deg);
 }
