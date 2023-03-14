@@ -48,7 +48,7 @@ margin-top: 10px;
 .list-left li{
     margin-right: 50px;
     margin-top: 5px;
-    
+
 }
 
 .list-right li{
@@ -73,8 +73,8 @@ margin-top: 10px;
 .container-jumbo{
     display: flex;
     max-width: 1200px;
-    margin: auto; 
-    margin-bottom: -75px; 
+    margin: auto;
+    margin-bottom: -75px;
 }
 
 h1{
@@ -231,7 +231,7 @@ h4{
 text-align: start;
 }
 
-hr {
+.hr-plan{
     width: 50px;
     margin:40px 20px
 }
@@ -334,7 +334,7 @@ filter: invert(1);
     padding: 60px;
 }
 
-.affiliates-center hr{
+.hr-affiliates{
     width: 150px;
     position: relative;
     right: 20px;
@@ -428,7 +428,7 @@ filter: invert(1);
     justify-content: space-between;
     border-top:1px solid lightgray;
     border-bottom:1px solid lightgray;
-    padding: 20px; 
+    padding: 30px;
     font-weight: 600;
 }
 
@@ -463,24 +463,29 @@ footer{
 
 /* selezione lingua */
 
+.container-selettore{
+    display: flex;
+    flex-direction: column;
+}
+
 .hr-lingua{
     color: white;
     width: 100px;
-    position: relative;
-    left: 230px;
-    top: 30px;
+    margin-left:160px ;
+    margin-top: 40px;
 }
 
 .container-lingua{
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center
 }
 
 .lingua{
     color: gray;
-    padding-top: 20px; 
-    margin-bottom: 20px; 
+    padding-top: 20px;
+    margin-bottom: 20px;
     width: 1200px;
 }
