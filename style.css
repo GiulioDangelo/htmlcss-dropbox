@@ -458,21 +458,20 @@ footer{
 
 .footer-list li h5{
     font-size: 20px;
-    padding: 5px;
+    padding-bottom: 5px;
 }
 
 /* selezione lingua */
 
 .container-selettore{
-    display: flex;
-    flex-direction: column;
+    max-width: 1300px;
+    margin:auto ;
 }
 
 .hr-lingua{
     color: white;
     width: 100px;
-    margin-left:160px ;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .container-lingua{
@@ -480,12 +479,17 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: flex-start;
+    margin-left: 50px;
 }
 
 .lingua{
     color: gray;
-    padding-top: 20px;
+    padding-top: 40px;
     margin-bottom: 20px;
     width: 1200px;
+}
+
+.arrow-up{
+vertical-align: sub;
 }
