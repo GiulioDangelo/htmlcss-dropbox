@@ -39,7 +39,7 @@ nav{
     list-style-type: none;
     align-items: center;
     font-size: 20px;
-    height: 97%;
+    height: 100%;
 }
 
 .list-right{
@@ -47,17 +47,8 @@ nav{
     flex: 1 0 auto; 
 }
 
-.list-left li{
+.list-left li, .list-right li{
     margin-right: 50px;
-    margin-top: 5px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.list-right li{
-    margin-left: 50px;
-    margin-top: 5px;
     height: 100%;
     display: flex;
     align-items: center;
