@@ -521,3 +521,44 @@ vertical-align: sub;
     transition: 0.3s;
     transform: rotate(180deg);
 }
+
+.footer-list li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.affiliate-card:hover{
+    border: 25px solid rgb(80, 0, 0);
+}
+
+.designit:hover{
+    border: 20px solid #7bbd72;
+}
+
+.ari-uni:hover{
+    border: 20px solid #790031 ;
+}
+
+.flori-uni:hover{
+    border: 20px solid #00b7ff;
+}
+
+.topps:hover{
+    border: 20px solid #d90e00 ;
+}
+
+.bicycle:hover{
+    border: 20px solid #ab0000 ;
+}
+
+.hearst:hover{
+    border: 20px solid #7caed6;
+}
+
+.lonely:hover{
+    border: 20px solid #00125c ;
+}
+
+.clear:hover{
+    border: 20px solid #dbb300 ;
+}
