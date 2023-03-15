@@ -39,7 +39,7 @@ nav{
     list-style-type: none;
     align-items: center;
     font-size: 20px;
-    height: 100%;
+    height: 97%;
 }
 
 .list-right{
@@ -531,11 +531,23 @@ vertical-align: sub;
 
 /* effetti */
 
-.list-nav li:hover{
+.list-left li:hover {
     cursor: pointer;
-    background-color: lightgrey;
+    background-color: rgb(215, 215, 215);
 }
 
+.list-right li:not(:last-child):hover {
+    cursor: pointer;
+    background-color: rgb(215, 215, 215);
+}
+
+.logo-top:hover , .list-right button:hover{
+    cursor: pointer;
+}
+
+.list-right button:hover{
+    background-color: #2978f8;
+}
 
 .faq-row:hover .faq-hidden{
     display: block;
