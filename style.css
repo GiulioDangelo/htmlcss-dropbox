@@ -61,6 +61,7 @@ nav{
     padding:7px 13px;
     color: white;
     border: none;
+    font-size: 19px;
 }
 
 /* main */
@@ -302,7 +303,9 @@ font-size: 35px;
 .dati-utilizzatori a{
     display: inline-block;
     margin-top: 100px;
+    color: rgb(51,102,187);
 }
+
 /* affiliati */
 .container-affiliates{
     display: flex;
@@ -420,6 +423,7 @@ font-size: 35px;
 
 .faq-content h2{
     margin-top: 100px;
+    margin-bottom: 10px;
     padding: 20px;
     font-size: 30px;
 }
