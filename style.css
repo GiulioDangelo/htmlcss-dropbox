@@ -353,6 +353,10 @@ font-size: 35px;
     padding: 60px;
 }
 
+.affiliates-center img{
+    max-width: 100%;
+}
+
 .hr-affiliates{
     width: 150px;
     margin: 30px;
@@ -591,4 +595,9 @@ vertical-align: sub;
 
 .clear:hover{
     border: 20px solid #dbb300 ;
+}
+
+.trial-right button:hover{
+    cursor: pointer;
+    background-color: rgb(215, 215, 215);
 }
